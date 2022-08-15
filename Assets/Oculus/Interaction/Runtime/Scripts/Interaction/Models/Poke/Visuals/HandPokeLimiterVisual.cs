@@ -35,7 +35,7 @@ namespace Oculus.Interaction
         private SyntheticHand _syntheticHand;
 
         [SerializeField]
-        private float _maxDistanceFromTouchPoint = 0.1f;
+        public float _maxDistanceFromTouchPoint = 0.1f;
 
         private bool _isTouching;
         private Vector3 _initialTouchPoint;
